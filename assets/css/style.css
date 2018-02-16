@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower:100,200,300,400,500,600,700|Rammetto+One:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body {
+    padding-top: 100px;
+    background-color: #bb3928;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: -17px;
+}
+/* Navbar ---------------------------------------------------*/
+
+
+
+.navbar .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-brand {
+    font-family: 'Exo';
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #ebb710;
+    margin-left: 0px;
+    font-weight: bold;
+    padding-left: 45px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ebb710;
+}
+
+#myNavbar li a:hover {
+    color: #ebb710;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #1e4b59;
+}
+
+.navbar{
+   border-radius: 0;
+   padding-bottom: 0;
+   margin-bottom: 0;
+   
+}
+
+.navbar-inverse {
+    border: 0;
+}
+
+.navbar-toggle {
+    border: none;
+    background-color: transparent;
+    margin-right: 12px;
+}
+
+.navbar-toggle:hover {
+     color: rgb(0,135,107);
+}
+
+.navbar-nav {
+    float: right;
+    padding-right: 15px;
+}
+
+.navbar-text {
+    margin-bottom: 0px;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+   margin-right: -13px;
+   margin-left: -33px;
+}
+
+.navbar-collapse {
+    padding-left: 48px;
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    color: rgb(0,135,107);
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fafafa;
+    font-family: 'roboto';
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fafafa;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#myNavbar {
+    background-color: #1e4b59;
+}
+
+.navbar-header {
+    background-color: #1e4b59; 
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #1e4b59;
+}
+
+/*---------------------------- Hero Image-----------------------*/
+
+
+.hero .hero-image {
+    height: 100vh;
+    background-image: url("/assets/images/monkees.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-right: 0px;
+    width:100%;
+}
+
+body {
+    padding-top: 50px;
+}
+
+/*----------------JUMBOTRON--------------------*/
+
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 0px;
+    background-color: #3c8aa3;
+    border-radius: 0px;
+    height: 80px;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+    color: #fafae6;
+    font-family: 'Exo';
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 15px;
+    text-shadow: 0 4px 0 #ffff79;
+}
+
+.jumbotron {
+    padding-top: 10px;
+    padding-bottom: 80px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* the band */
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 15px;
+    background-color: black;
+    border: none;
+    border-radius: 18px;
+    
+}
+
+.img-bio {
+    height: 180px;
+    float: right;
+    width: 168px;
+}
+
+.well .memberName {
+    color: #172349;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'exo';
+}
+
+.well .memberDesc {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'exo';
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fafafa;
+    font-weight: 300;
+}
+
+
+/*-------------Gallery--------------------*/
+
+
+/* Thumbnail */
+
+.thumbnail {
+    border: none;
+    background-color: #bb3928;
+    
+}
+
+.thumbnail a > img {
+  height: 170px;
+  width: 271px;
+  
+}
+.thumbnail {
+    transition: 1s;
+    
+}
+
+.thumbnail:hover {
+    
+    transform: scale(1.1);
+}
+
+#mainGallery {
+    font-family: 'Exo', 'sans-serif';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 100px;
+    
+}
+
+/*------------------Show dates panel--------------------*/
+.showDates {
+    color: #000;
+    font-size: 15px;
+    font-family: 'Roboto', 'sans-serif';
+    line-height: 100%;
+    text-transform: uppercase;
+    padding: 10px 0px 10px;
+    margin-top: -40px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+ul:focus {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+} /*Play with it to see what it does*/
+
+li {
+    display: list-item;
+   
+}
+
+.showDates li {
+    font-size: 18px;
+    margin: 0;
+    padding: 30px 20px;
+    background: black;
+    color: white;
+}
+
+.tickets:hover{
+    color: #ebb710;
+    font-size: 120%;
+}
+
+.showDates li span {
+    display: block;
+    float: left;
+}
+
+.showDates li .c1 {
+    width: 18%;
+    padding-right: 2%;
+}
+
+.showDates li .c2 {
+    width: 23%;
+    padding-right: 2%;
+}
+
+.showDates li .c3 {
+    width: 19%;
+    padding-right: 2%;
+}
+
+.showDates li .c4 {
+    width: 18%;
+    padding-right: 2%;
+}
+
+.showDates li .c5 {
+    width: 14%;
+    float: right;
+    text-align: center;
+}
+
+
+.showDates li .c1 {
+    width: 18%;
+    padding-right: 2%;
+}
+
+
+.showDates li span {
+    display: block;
+    float: left;
+}
+
+.showDates a {
+    color: white;
+    display: block;
+}
+
+/*Form*/
+
+form {
+    margin-left: 84px;
+    margin-top: 27px;
+    font-size: 16px;
+    color: #fafafa;
+    width: 70%;
+
+}
+.page-title p {
+    font-family: 'roboto';
+    font-size: 16px;
+    color: #fafafa;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.btn-primary {
+    color: #fafafa;
+    background-color: #172349;
+    margin-left: 0px;
+    border: none;
+}
+
+
+.booking {
+    color: #172349;
+    text-align: center;
+    font-family: 'exo';
+    margin-bottom: 10px;
+}
+ 
+/* footer */
+
+.social-links li a {
+    color: #ebb710;
+}
+
+.page-footer {
+    background-color: #1e4b59;
+}
+/*Media queries*/
+
+@media(max-width:450px) {
+    .showDates li{
+        font-size: 9px;
+    }
+}
+@media (min-width: 401px) and (max-width:550px) {
+    .showDates li{
+        font-size: 12px;
+    }
+}
+
+@media(min-width:551px) and (max-width:700px) {
+    .showDates li {
+        font-size: 14px
+    }
+
+}
+@media (min-width: 768px) {
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+}
+}
+
+
+@media (max-width: 768px ){
+    .container .jumbotron, .container-fluid .jumbotron {
+        padding-bottom: 100px;
+        margin-top: 22px
+    }
+}
+
+@media (max-width: 768px) {
+    .jumbotron .upShow {
+        margin-top:8px;
+    }
+}
+@media screen and (min-width: 768px) {
+.jumbotron .h1, .jumbotron  {
+    font-size: 50px;
+}
+}
