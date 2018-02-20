@@ -9,6 +9,7 @@ body {
 }
 
 .title {
+    
     font-family: 'raleway', sans-serif;
     font-size: 61px;
     text-align: center;
@@ -23,6 +24,7 @@ body {
 }
 
 .container-fluid {
+    
     margin-right: auto;
     margin-left: auto;
     padding-right: 0px;
@@ -30,9 +32,10 @@ body {
 }
 
 
-/* Navbar ---------------------------------------------------*/
+/* -----------------------------------------------NAVBAR ---------------------------------------------------*/
 
 #navbar-primary .navbar-nav { 
+    
     background: #fb2e01;
     width: 100%;
     text-align: center;
@@ -40,24 +43,37 @@ body {
     height: 124px;
     padding-left: 74px;
     margin-bottom: -21px;
-    }
+    
+}
+
 .navbar-nav > li {
+    
     display: inline-block;
     float: none;
 
 }
+
 .navbar-nav  a {
+    
       padding-left: 30px;
       padding-right: 30px;
+      
 }
+
 .container-fluid .social-links .soc-link a {
+    
     color: #e92826;
     padding-top: 50px;
+    
 }
 .social-icons .soc-link a {
+    
     margin-left: 50px;
+    
 }
+
 .navbar-nav li a {
+    
     color: #fffeb3;
     font-family: 'Kavivanar', cursive;
     font-weight:400;
@@ -65,131 +81,118 @@ body {
     letter-spacing: 4px;
     
 }
+
 .navbar-nav li a:hover {
+    
     color: skyblue;
     background-color: lightseagreen;
     
 }
+
 #logo-navbar-middle {
+    
     height: 117px;
     padding-left: 28px;
     margin-top: -8px;
 }
+
 .banner {
+    
     padding-top: 0px;
-   
+    
 }
+
 .navbar {
+    
     position: relative;
     min-height: 50px;
     margin-bottom: 20px; 
-    
     margin-right: -31px;
     margin-left: -31px;
     
 }
 
-
-
-/*---------------------------- Hero Image-----------------------*/
+/* -----------------------------------------------BANNER IMAGE ---------------------------------------------------*/
 
 
 .hero .hero-image {
+    
     height: 100vh;
-    background-image: url("/assets/images/monkees.jpg");
+    background-image: url("assets/images/monkees.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-right: 0px;
     width:100%;
     margin-top: 116px;
+    
 }
 
-
-
-
-/*----------------THE BAND--------------------*/
+/* -----------------------------------------------THE BAND ---------------------------------------------------*/
 
 #the-band {
+    
     padding-top: 35px;
     background: #ffffeb;
     
 }
 
 .well  {
+    
     min-height: 20px;
     padding: 21px;
     margin-bottom: 20px;
     box-shadow: none;
     background-color: #fffeb3;
     border:none;
+    
 }
 
 .img-circle {
+    
     height: 202px;
     width: 202px;
     display:block;
     margin-left: auto;
     margin-right: auto;
     filter: grayscale(100%);
+    
 }
 
-
-
 .well .member-description {
+    
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 400;
     font-family: 'raleway', sans-serif;
     text-align: center;
+    
 }
 
 .text-description {
+    
     font-size:15px;
     text-align: center;
+    
 }
 
 .member-description {
+    
     font-size:15px;
     text-align: center;
     
 }
 
 .member-name {
+    
     font-family: 'raleway',sans-serif;
     text-align: center;
-}
-/*-------------Gallery--------------------*/
-
-
-/* Thumbnail */
-
-
-.thumbnail {
-    border: none;
-    background-color: #ffffeb;
     
 }
 
-.thumbnail {
-   transition: 1s; 
-}
+/* -----------------------------------------------SHOWS ---------------------------------------------------*/
 
-.thumbnail a > img {
-  height: 170px;
-  width: 271px;
-  filter: grayscale(100%);
-}
-
-.thumbnail:hover {
-    transform: scale(1.1);
-}
-
-#my-gallery {
-        margin-top: 17px;
-}
-
-/*------------------Show dates panel--------------------*/
 .show-dates {
+    
     color: #000;
     font-size: 15px;
     font-family: 'Roboto', 'sans-serif';
@@ -197,14 +200,17 @@ body {
     text-transform: uppercase;
     padding: 10px 0px 10px;
     margin-top: -40px;
-        margin-bottom: -10px;
+    margin-bottom: -10px;
+    
 }
 
 ul, ol {
+    
     list-style: none;
 }
 
 ul:focus {
+    
     border: 0;
     font: inherit;
     font-size: 100%;
@@ -212,14 +218,17 @@ ul:focus {
     outline: 0;
     padding: 0;
     vertical-align: baseline;
+
 } /*Play with it to see what it does*/
 
 li {
+    
     display: list-item;
-   
+
 }
 
 .show-dates li {
+    
     margin: 0;
     padding: 23px 20px;
     background: skyblue;
@@ -231,73 +240,218 @@ li {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    
 }
 
-.tickets:hover{
+.tickets:hover {
+    
     color: lightseagreen;
     font-size: 150%;
+    
 }
 
 .show-dates li span {
+    
     display: block;
     float: left;
+    
 }
 
 .show-dates li .c1 {
+    
     width: 18%;
     padding-right: 23%;
+    
 }
 
 .show-dates li .c2 {
+    
     width: 23%;
     padding-right: 23%;
+    
 }
 
 .show-dates li .c3 {
+    
     width: 19%;
     padding-right: 2%;
+    
 }
 
 .show-dates li .c4 {
+    
     width: 18%;
     padding-right: 2%;
+    
 }
 
 .show-dates li .c5 {
+    
     float: right;
     text-align: center;
     width: 17%;
+    
 }
 
-
 .show-dates li .c1 {
+    
     width: 18%;
     padding-right: 2%;
+    
 }
 
 
 .show-dates li span {
+    
     display: block;
     float: left;
+    
 }
 
 .show-dates a {
+    
     color: white;
     display: block;
+    
 }
 
-/*Form*/
+/* -----------------------------------------------LISTEN ---------------------------------------------------*/
+
+.title-listen {
+    
+    color: #fb2e01;
+    font-family: 'raleway', sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    text-align: center;
+    
+}
+
+.hey-hey {
+    
+    background-color: #fffeb3;
+    width: 45%;
+    float: left;
+    margin-left: 53px;
+    height: 591px;
+    margin-top: -17px;
+    
+}
+
+.music-square-title {
+    
+    font-family: 'kavivanar', sans-serif;
+    
+}
+
+#audio-listen {
+    
+    background-color: skyblue;
+    width: 50%;
+    margin: -46px auto;
+    padding: 3em;
+    margin-top: 46px;
+    float: right;
+    height: 176px;
+    padding-bottom: -5px;
+    
+}
+
+.music-name {
+    
+    font-family: 'raleway',sans-serif;
+    text-align: center;
+    margin-top: -14px;
+    
+}
+
+.music-album {
+    
+    font-family: 'raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+audio, canvas, progress, video {
+    
+    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.head-name {
+    
+    text-align: center;
+    font-family: 'raleway';
+    color: #fffeb3;
+    
+}
+
+.head-box {
+    
+    background-color: #fb2e01;
+    width: 50%;
+    float: right;
+    text-align: center;
+    margin-bottom: -46px;
+    margin-top: -17px;
+    
+}
+
+/* -----------------------------------------------GALLERY ---------------------------------------------------*/
+
+.thumbnail {
+    
+    border: none;
+    background-color: #ffffeb;
+    
+}
+
+.thumbnail {
+    
+    transition: 1s; 
+   
+}
+
+.thumbnail a > img {
+    
+    height: 170px;
+    width: 271px;
+    filter: grayscale(100%);
+  
+}
+
+.thumbnail:hover {
+    
+    transform: scale(1.1);
+    
+}
+
+#my-gallery {
+    
+    margin-top: 17px;
+    
+}
+
+/* -----------------------------------------------FORM ---------------------------------------------------*/
 
 .needs-validation {
+    
     width: 50%;
     padding-top: 50px;
     margin: auto;
     color: black;
     background-color: skyblue;
-    margin-top: 0px
+    margin-top: 0px;
+    
 }
 
 .btn-primary {
+    
     background: lightseagreen;
     border: 1px solid transparent;
     display: inline-block;
@@ -311,14 +465,19 @@ li {
     border-radius: 0px;
     color: black;
     font-family: 'raleway',sans-serif;
+    
 }
 
 .btn-primary:hover {
+    
     background-color: #fffeb3;
     color: black;
     border-color: #fffeb3;
+    
 }
+
 .form-control {
+    
     display: block;
     width: 87%;
     height: 36px;
@@ -328,130 +487,72 @@ li {
     background-color: #ebe9e5;
     border: 1px solid black;
     border-radius: 0px;
+    
 }
 
 .booking {
+    
     color: #172349;
     text-align: center;
     font-family: 'raleway', sans-serif;
     margin-bottom: 10px;
     font-size: 25px;
+    
 }
+
 .booking2 {
+    
     font-family: 'raleway',sans-serif;
     text-align: center;
     font-size: 17px;
+    
 }
 
 .col-form-label {
+    
     font-family: 'raleway', sans-serif;
     font-size: 15px;
+    
 }
 
 .form-group {
+    
     margin-bottom: 15px;
     margin-left: 0px;
     margin-right: -57px;
+    
 }
 
-/*-------------------------------------------Listen--------------------------------------------*/
-
-.title-listen {
-    color: #fb2e01;
-    font-family: 'raleway', sans-serif;
-    font-size: 48px;
-    font-weight: 300;
-    text-align: center;
-}
-
-.hey-hey {
-    background-color: #fffeb3;
-    width: 45%;
-    float: left;
-    margin-left: 53px;
-    height: 591px;
-    margin-top: -17px;
-}
-
-
-
-
-.music-square-title {
-    font-family: 'kavivanar', sans-serif;
-}
-
-#audio-listen {
-    background-color: skyblue;
-    width: 50%;
-    margin: -46px auto;
-    padding: 3em;
-    margin-top: 46px;
-    float: right;
-    height: 176px;
-    padding-bottom: -5px;
-}
-
-.music-name {
-    font-family: 'raleway',sans-serif;
-    text-align: center;
-    margin-top: -14px;
-}
-
-.music-album {
-    font-family: 'raleway', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    text-align: center;
-}
-
-audio, canvas, progress, video {
-    display: inline-block;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.head-name {
-    text-align: center;
-    font-family: 'raleway';
-    color: #fffeb3;
-}
-
-.head-box {
-    background-color: #fb2e01;
-    width: 50%;
-    float: right;
-    text-align: center;
-    margin-bottom: -46px;
-    margin-top: -17px;
-}
-
-/*----------------------Footer-----------------------------*/
-
+/* -----------------------------------------------FOOTER ---------------------------------------------------*/
 
 .copyright {
+    
     font-family: 'kavivanar';
     font-size: 19px;
     margin-left: 47px;
-    color: #fffeb3
+    color: #fffeb3;
+    
 }
 
 .page-footer {
+    
     background: #fb2e01;
     height: 107px;
+    
 }
 
-
-
 .footer-newsletter-text {
+    
     font-family: 'kavivanar';
     font-weight: 500;
     font-size: 19px;
     color: #fffeb3;
     margin-bottom: 0.5rem;
+    
 }
 
 .footer-newsletter-form input[type="text"] {
+    
     background: #ebe9e5;
     border: 1px solid transparent;
     line-height: 1;
@@ -462,9 +563,11 @@ audio, canvas, progress, video {
     outline: 0;
     padding: 2rem;
     vertical-align: top;
+    
 }
 
 .footer-newsletter-form button[type="submit"] {
+    
     background: lightseagreen;
     border: 1px solid transparent;
     display: inline-block;
@@ -476,15 +579,18 @@ audio, canvas, progress, video {
     line-height: 1.4rem;
     text-transform: uppercase;
     font-family: 'raleway',sans-serif;
+    
 }
 
 .footer-newsletter-form button:hover {
+    
     background-color: #fffeb3;
     color: black;
     border-color: #fffeb3;
+    
 }
 
-/*Media queries*/
+/* -----------------------------------------------MEDIA QUERIES ---------------------------------------------------*/
 
 @media(max-width:450px) {
     .show-dates li{
