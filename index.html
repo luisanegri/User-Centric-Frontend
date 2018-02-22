@@ -9,7 +9,7 @@
     
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-     <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
      
      
      <link rel="stylesheet" type="text/css" href="/js/dist/jquery.fancybox.min.css" >
@@ -47,12 +47,12 @@
                    <li><a target="_blank" href="http://www.youtube.com/themonkees"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></li>
                    <li><a target="_blank" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck"><i class="fa fa-spotify fa-2x" aria-hidden="true"></i></a></li>
                 </ul>-->
-        <li class="active"><a href="#">The Band</a></li>
-        <li><a href="#">Shows</a></li>
+        <li class="active"><a href="#the-band">The Band</a></li>
+        <li><a href="#shows">Shows</a></li>
         <li><a href="#"><img id="logo-navbar-middle" src="assets/images/The Monkees.png"  alt="Logo Thing main logo"></a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Listen</a></li>
+        <li><a href="#my-gallery">Gallery</a></li>
+        <li><a href="#contact-us">Contact</a></li>
+        <li><a href="#listen">Listen</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
 </div><!-- /.container-fluid -->
@@ -163,66 +163,84 @@
     <div class="container for-title">
         <h2 class="title">Upcoming Shows</h2>   
     </div><!--End container for-title-->
-  <ul class="show-dates">
-      <li class="clearfix first">
-        <span class="c1">Date</span>
-        <span class="c2">Venue</span>
-        <span class="c3">City</span>
-        <span class="c4">Country</span>
-        <span class="c5">Tickets</span>
-      </li>
-      <li>
-      <a class="tickets clearfix" href="#" target="_blank">
-        <span class="c1">25/03/2018</span>
-        <span class="c2">Whelan's</span>
-        <span class="c3">Dublin</span>
-        <span class="c4">Ireland</span>
-        <span class="c5">Buy</span>
-      </a>
-      </li>
-      
-      <li>
-      <a class="tickets clearfix" href="#" target="_blank">
-        <span class="c1">25/03/2018</span>
-        <span class="c2">Whelan's</span>
-        <span class="c3">Dublin</span>
-        <span class="c4">Ireland</span>
-        <span class="c5">Buy</span>
-      </a>
-      </li>
     
-      <li>
-      <a class="tickets clearfix" href="#" target="_blank">
-        <span class="c1">25/03/2018</span>
-        <span class="c2">Whelan's</span>
-        <span class="c3">Dublin</span>
-        <span class="c4">Ireland</span>
-        <span class="c5">Buy</span>
-      </a>
-      </li>
-      
-      <li>
-      <a class="tickets clearfix" href="#" target="_blank">
-        <span class="c1">25/03/2018</span>
-        <span class="c2">Whelan's</span>
-        <span class="c3">Dublin</span>
-        <span class="c4">Ireland</span>
-        <span class="c5">Buy</span>
-      </a>
-      </li>
-      
-      <li>
-      <a class="tickets clearfix" href="#" target="_blank">
-        <span class="c1">25/03/2018</span>
-        <span class="c2">Whelan's</span>
-        <span class="c3">Dublin</span>
-        <span class="c4">Ireland</span>
-        <span class="c5">Buy</span>
-      </a>
-      </li>
-    </ul>
+  <div class="container show-list">
+    <div class="row">
+      <div class="col-lg-12 col-sm-4">
+        <table>
+          <tr>
+            <th>Date</th>
+            <th>Venue</th>
+            <th>City</th>
+            <th>Country</th>
+            <th>Tickets</th>
+          </tr>
+          
+          <tr>
+          <td class="c1">23/05/2017</td>
+          <td class="c2">Whelan's</td>
+          <td class="c3">Dublin</td>
+          <td class="c4">Ireland</td>
+          <td class="c5">Buy</td>
+          </tr>
+          
+          <tr>
+          <td class="c1">23/05/2017</td>
+          <td class="c2">Whelan's</td>
+          <td class="c3">Dublin</td>
+          <td class="c4">Ireland</td>
+          <td class="c5">Buy</td>
+          </tr>
+          
+          <tr>
+          <td class="c1">23/05/2017</td>
+          <td class="c2">Whelan's</td>
+          <td class="c3">Dublin</td>
+          <td class="c4">Ireland</td>
+          <td class="c5">Buy</td>
+          </tr>
+          
+          <tr>
+          <td class="c1">23/05/2017</td>
+          <td class="c2">Whelan's</td>
+          <td class="c3">Dublin</td>
+          <td class="c4">Ireland</td>
+          <td class="c5">Buy</td>
+          </tr>
+          
+          <tr>
+          <td class="c1">23/05/2017</td>
+          <td class="c2">Whelan's</td>
+          <td class="c3">Dublin</td>
+          <td class="c4">Ireland</td>
+          <td class="c5">Buy</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>  
+  
     
   </div><!--End Shows section-->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 <!--Listen section--><div id="listen">
     <div class="container for-title">
         <h2 class="title">Listen</h2>   
@@ -230,7 +248,7 @@
   
     <div class="container hey-hey">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-12">
           <h2 class="title-listen">Hey, hey, The Monkees are back!</h2>
           <div class="embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" width="342px" height="224px" text-align="center" src="https://www.youtube.com/embed/hLTEIEM256Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -238,50 +256,89 @@
         </div><!--End column-->
      </div><!--End row-->   
     </div><!--End container hey-hey-->
-    <section>
-      
-      <article id="audio-head">
-        <div class="head-box">
+          
+  <div class="container the-best">
+    <div class="row">
+      <div class="col-lg-12">  
+          <article id="audio-head">
+          <div class="head-box">
           <h2 class="head-name">The best of The Monkees</h2>
-        </div>
-      </article><!--End audio-listen-->
-      <article id="audio-listen">
+          </div><!--End head-box-->
+          </article><!--End audio-listen-->
+      </div><!--End column-->
+    </div><!--End row-->
+  </div><!--End the-best-->
+  
+   <!-- Start audios-->
+  <div class="container the-best-audio">
+    <div class="row">
+      <div class="col-lg-6 col-md-6">  
+        <article id="audio-listen">
         <div class="quote">
           <h2 class="music-name">"Daydream Believer"</h2>
           <h3 class="music-album">Album: The Birds, The Bees & The Monkees</h3>
-        </div>
+        </div><!--End quote-->
         <audio controls>
           <source src="assets/audio/DaydreamBeliever.mp3" width="100%" height="60">
         </audio> 
         </article><!--End audio-listen-->
+      </div><!--End column-->
         
+      <div class="col-lg-6 col-md-6">  
         <article id="audio-listen">
         <div class="quote">
           <h2 class="music-name">"I am a Believer"</h2>
           <h3 class="music-album">Album: The Birds, The Bees & The Monkees</h3>
-        </div>
+        </div><!--End quote-->
         <audio controls>
-          <source src="/assets/audio/ImABeliever.mp3" width="100%" height="60">
+          <source src="assets/audio/ImABeliever.mp3" width="100%" height="60">
         </audio> 
         </article><!--End audio-listen-->
+      </div><!--End column-->
+      
+      <div class="col-lg-6 col-md-6">  
+        <article id="audio-listen">
+        <div class="quote">
+          <h2 class="music-name">"Clarksville"</h2>
+          <h3 class="music-album">Album: The Birds, The Bees & The Monkees</h3>
+        </div><!--End quote-->
+        <audio controls>
+          <source src="assets/audio/Clarksville.mp3" width="100%" height="60">
+        </audio> 
+        </article><!--End audio-listen-->
+      </div><!--End column-->
+      
         
-        
+      <div class="col-lg-6 col-md-6">  
         <article id="audio-listen">
         <div class="quote">
           <h2 class="music-name">"Stepping Stone"</h2>
           <h3 class="music-album">Album: The Birds, The Bees & The Monkees</h3>
         </div>
         <audio controls>
-          <source src="/assets/audio/SteppingStone.mp3" width="100%" height="60">
+          <source src="assets/audio/SteppingStone.mp3" width="100%" height="60">
         </audio> 
         </article><!--End audio-listen-->
+        </div><!--End column-->
+        </div><!--End row-->
+        </div><!--End container the-best-audio-->
+  </div><!--End listen-->
         
-        <div class="clearfix"></div>
         
-    </section><!--End Listen section-->
-    </div><!--End listen-->
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 <!--My gallery section--> <div id="my-gallery">  
-    <div class="container for-title">
+    <div class="for-title">
         <h2 class="title">Gallery</h2> 
     </div><!--End container for-title -->
  <div class="container container-images">
@@ -384,10 +441,16 @@
   </div><!--End my gallery section-->
 <!--Contact us section--><div id="contact-us">
         <h2 class="title">Contact us</h2>   
-  <div class="page-title">
-    <h3 class="booking">Want The Monkees playing in your next event? </h3>
-    <p class="booking2">Fill out the form with the details and our representatives will get in touch shortly!</p>
-  </div>
+    <div class="container for-contact-title">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="page-title">
+            <h3 class="booking">Want The Monkees playing in your next event? </h3>
+              <p class="booking2">Fill out the form with the details and our representatives will get in touch shortly!</p>
+          </div><!--End page-title-->
+        </div><!--End column-->
+      </div><!--End row-->
+    </div><!--End container for-contact-title-->
   </div><!--End Contact us section-->
 <!--Contact us form--><form class="needs-validation">
   <div class="form-group row">
