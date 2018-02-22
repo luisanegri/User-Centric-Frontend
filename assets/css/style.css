@@ -86,7 +86,7 @@ body {
 .navbar-nav li a:hover {
     
     color: skyblue;
-    background-color: lightseagreen;
+    background-color: transparent;
     
 }
 
@@ -206,10 +206,10 @@ th {
 }
 .show-list {
     border: 1px solid;
-    margin-left: 91px;
-    padding-top: 25px;
     padding-top: 25px;
     background-color: skyblue;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 td {
@@ -242,7 +242,7 @@ td {
 .c5 {
     
     font-family: 'raleway';
-    padding-left: 9%;
+    padding-left: 10%;
 }
 
 
@@ -339,7 +339,7 @@ audio, canvas, progress, video {
 
 .head-box {
     
-    background-color: #fb2e01;
+    background-color: lightseagreen;
     width: 100%;
     float: right;
     text-align: center;
