@@ -14,50 +14,35 @@
      
      <link rel="stylesheet" type="text/css" href="/js/dist/jquery.fancybox.min.css" >
      
-     <script type="text/javascript">
-     $(document).ready(function(){
-       $("[data-fancybox]").fancybox({
-		// Options will go here
-	});
-     });
-	
-</script>
+   
      
 </head>
 <body>
     
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="true">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#"><img id="logo-navbar-middle" src="assets/images/logothemonkees.png"  alt="Logo Thing main logo"></a>
+          </div><!--End navbar-header-->
+      
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#the-band">The Band</a></li>
+            <li><a href="#shows">Shows</a></li>
+            <li><a href="#my-gallery">Gallery</a></li>  
+            <li><a href="#contact-us">Contact Us</a></li> 
+            <li><a href="#listen">Listen</a></li> 
+          </ul>
+        </div><!--End collapse-->
+        </div><!--End container-fluid-->
+      </nav><!--End navbar-->
   
-<!--Navbar--><header class="banner">
-<nav id="navbar-primary" class="navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
-        <span class="icon-bar">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse" id="navbar-primary-collapse">
-      <ul class="nav navbar-nav">
-        <!--<ul class="list-inline social-links">
-                   <li><a target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
-                   <li><a target="_blank" href="https://twitter.com/monkeesofficial"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
-                   <li><a target="_blank" href="https://www.instagram.com/themonkees/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
-                   <li><a target="_blank" href="http://www.youtube.com/themonkees"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></li>
-                   <li><a target="_blank" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck"><i class="fa fa-spotify fa-2x" aria-hidden="true"></i></a></li>
-                </ul>-->
-        <li class="active"><a href="#the-band">The Band</a></li>
-        <li><a href="#shows">Shows</a></li>
-        <li><a href="#"><img id="logo-navbar-middle" src="assets/images/The Monkees.png"  alt="Logo Thing main logo"></a></li>
-        <li><a href="#my-gallery">Gallery</a></li>
-        <li><a href="#contact-us">Contact</a></li>
-        <li><a href="#listen">Listen</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-</div><!-- /.container-fluid -->
-</nav>
-</header><!--End Navbar-->
+
 <!--Image banner--><div class="hero">
       <div class="hero-image">
         
@@ -164,74 +149,111 @@
         <h2 class="title">Upcoming Shows</h2>   
     </div><!--End container for-title-->
     
-  <div class="container show-list">
-    <div class="row">
-      <div class="col-lg-12 col-sm-4">
-        <table>
-          <tr>
-            <th>Date</th>
-            <th>Venue</th>
-            <th>City</th>
-            <th>Country</th>
-            <th>Tickets</th>
-          </tr>
-      </div>
-      <div class="col-lg-12 col-sm-4">    
-          <tr>
-          <td class="c1">23/05/2017</td>
-          <td class="c2">Whelan's</td>
-          <td class="c3">Dublin</td>
-          <td class="c4">Ireland</td>
-          <td class="c5">Buy</td>
-          </a>
-      </div>
-          
-          
-      <div class="col-lg-12 col-sm-4">    
-          <tr>
-          <td class="c1">23/05/2017</td>
-          <td class="c2">Whelan's</td>
-          <td class="c3">Dublin</td>
-          <td class="c4">Ireland</td>
-          <td class="c5">Buy</td>
-          </tr>
-      </div>
-      <div class="col-lg-12 col-sm-4">    
-          <tr>
-          <td class="c1">23/05/2017</td>
-          <td class="c2">Whelan's</td>
-          <td class="c3">Dublin</td>
-          <td class="c4">Ireland</td>
-          <td class="c5">Buy</td>
-          </tr>
-      </div>
-      <div class="col-lg-12 col-sm-4">    
-          <tr>
-          <td class="c1">23/05/2017</td>
-          <td class="c2">Whelan's</td>
-          <td class="c3">Dublin</td>
-          <td class="c4">Ireland</td>
-          <td class="c5">Buy</td>
-          </tr>
-      </div>
-      <div class="col-lg-12 col-sm-4">    
-          <tr>
-          <td class="c1">23/05/2017</td>
-          <td class="c2">Whelan's</td>
-          <td class="c3">Dublin</td>
-          <td class="c4">Ireland</td>
-          <td class="c5">Buy</td>
-          </tr>
-      </div>
-        </table>
-      </div>
-    </div>
-  </div>  
-  
+
+
+<div class="container-fluid show-list">
+<ul class="show-dates">
+      <li class="clearfix first">
+        <span class="c1">Date</span>
+        <span class="c2">Venue</span>
+        <span class="c3">City</span>
+        <span class="c4">Country</span>
+        <span class="c5">Tickets</span>
+      </li>
+      <li>
+      <a class="tickets clearfix" href="#" target="_blank">
+        <span class="c1">25/03/2018</span>
+        <span class="c2">Whelan's</span>
+        <span class="c3">Dublin</span>
+        <span class="c4">Ireland</span>
+        <span class="c5">Buy</span>
+      </a>
+      </li>
+      
+      <li>
+      <a class="tickets clearfix" href="#" target="_blank">
+        <span class="c1">25/03/2018</span>
+        <span class="c2">Whelan's</span>
+        <span class="c3">Dublin</span>
+        <span class="c4">Ireland</span>
+        <span class="c5">Buy</span>
+      </a>
+      </li>
     
-  </div><!--End Shows section-->
-  
-  
+      <li>
+      <a class="tickets clearfix" href="#" target="_blank">
+        <span class="c1">25/03/2018</span>
+        <span class="c2">Whelan's</span>
+        <span class="c3">Dublin</span>
+        <span class="c4">Ireland</span>
+        <span class="c5">Buy</span>
+      </a>
+      </li>
+      
+      <li>
+      <a class="tickets clearfix" href="#" target="_blank">
+        <span class="c1">25/03/2018</span>
+        <span class="c2">Whelan's</span>
+        <span class="c3">Dublin</span>
+        <span class="c4">Ireland</span>
+        <span class="c5">Buy</span>
+      </a>
+      </li>
+      
+      <li>
+      <a class="tickets clearfix" href="#" target="_blank">
+        <span class="c1">25/03/2018</span>
+        <span class="c2">Whelan's</span>
+        <span class="c3">Dublin</span>
+        <span class="c4">Ireland</span>
+        <span class="c5">Buy</span>
+      </a>
+      </li>
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
   
@@ -331,36 +353,22 @@
         </div><!--End row-->
         </div><!--End container the-best-audio-->
   </div><!--End listen-->
-        
-        
-  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<!--My gallery section--> <div id="my-gallery">  
+<!--My gallery section<--> <div id="my-gallery">  
     <div class="for-title">
         <h2 class="title">Gallery</h2> 
-    </div><!--End container for-title -->
+    </div><!--End for-title -->
  <div class="container container-images">
         <div class="col-xs-6 col-sm-4">
           <div class="thumbnail"> 
-            <a href="assets/images/album2.jpg" data-fancybox data-caption="My caption">
-            <img class="image-responsive" src="assets/images/album2.jpg" alt="Album" />
+            <a href="assets/images/album2.jpg" data-fancybox="group">
+            <img src="assets/images/album2.jpg" alt="Album" />
             </a>
           </div><!--End thumbnail-->
         </div><!--End column-->
         
-         <div class="col-xs-6 col-sm-4">
+        <div class="col-xs-6 col-sm-4">
             <div class="thumbnail"> 
-            <a href="assets/images/4.jpg" data-fancybox data-caption="My caption">
+            <a href="assets/images/4.jpg"  data-fancybox="group">
             <img src="assets/images/4.jpg" alt="Album" />
             </a>
           </div><!--End thumbnail-->
@@ -368,85 +376,90 @@
         
          <div class="col-xs-6 col-sm-4">
             <div class="thumbnail"> 
-            <a class="fancybox" href="assets/images/band.jpg" data-fancybox data-caption="My caption">
-            <img class="img-responsive" src="assets/images/band.jpg" alt="Album" />
+            <a href="assets/images/band.jpg" data-fancybox="group">
+            <img src="assets/images/band.jpg" alt="Album" />
             </a>
           </div><!--End thumbnail-->
         </div><!--End column-->
   
        <div class="col-xs-6 col-sm-4">
             <div class="thumbnail"> 
-            <a class="fancybox" href="assets/images/g.jpg">
-            <img class="img-responsive" src="assets/images/g.jpg" alt="Album" />
+            <a class="fancybox" href="assets/images/g.jpg" data-fancybox="group">
+            <img src="assets/images/g.jpg" alt="Album" />
             </a>
             </div><!--End thumbnail-->
        </div><!--End column-->
         
         <div class="col-xs-6 col-sm-4">
             <div class="thumbnail"> 
-            <a class="fancybox" href="assets/images/cover3.jpg">
-            <img class="img-responsive" src="assets/images/cover3.jpg" alt="Album" />
+            <a href="assets/images/cover3.jpg" data-fancybox="group">
+            <img src="assets/images/cover3.jpg" alt="Album" />
             </a>
             </div><!--End thumbnail-->
-        </div><!--End column-->
+       </div><!--End column-->
         
-          <div class="col-xs-6 col-sm-4">
+                <div class="col-xs-6 col-sm-4">
             <div class="thumbnail"> 
-            <a class="fancybox" href="assets/images/1.jpg">
-            <img class="img-responsive" src="assets/images/1.jpg" alt="Album" />
-            </a>
-            </div><!--End thumbnail-->
-        </div><!--End column-->
-        
-        <div class="col-xs-6 col-sm-4">
-            <div class="thumbnail"> 
-            <a class="fancybox" href="assets/images/cover1.jpg">
-            <img class="img-responsive" src="assets/images/cover1.jpg" alt="Album" />
+            <a href="assets/images/1.jpg" data-fancybox="group">
+            <img src="assets/images/1.jpg" alt="Album" />
             </a>
             </div><!--End thumbnail-->
         </div><!--End column-->
         
         <div class="col-xs-6 col-sm-4">
             <div class="thumbnail"> 
-            <a class="fancybox"  href="assets/images/monnk.jpg">
-            <img class="img-responsive" src="assets/images/monnk.jpg" alt="Album" />
+            <a href="assets/images/cover1.jpg" data-fancybox="group">
+            <img src="assets/images/cover1.jpg" alt="Album" />
             </a>
             </div><!--End thumbnail-->
         </div><!--End column-->
         
         <div class="col-xs-6 col-sm-4">
             <div class="thumbnail"> 
-            <a class="fancybox"  href="assets/images/monkee.jpg">
-            <img class="img-responsive" src="assets/images/monkee.jpg" alt="Album" />
+            <a href="assets/images/monnk.jpg" data-fancybox="group">
+            <img src="assets/images/monnk.jpg" alt="Album" />
             </a>
             </div><!--End thumbnail-->
         </div><!--End column-->
         
         <div class="col-xs-6 col-sm-4">
             <div class="thumbnail"> 
-            <a class="fancybox" href="assets/images/0.jpg">
-            <img class="img-responsive" src="assets/images/0.jpg" alt="Album" />
+            <a href="assets/images/monkee.jpg" data-fancybox="group">
+            <img src="assets/images/monkee.jpg" alt="Album" />
             </a>
             </div><!--End thumbnail-->
         </div><!--End column-->
         
        <div class="col-xs-6 col-sm-4">
             <div class="thumbnail"> 
-            <a class="fancybox" href="assets/images/monke.jpg">
-            <img class="img-responsive" src="assets/images/monke.jpg" alt="Album" />
+            <a href="assets/images/0.jpg" data-fancybox="group">
+            <img src="assets/images/0.jpg" alt="Album" />
+            </a>
+            </div><!--End thumbnail-->
+        </div><!--End column-->
+        
+       <div class="col-xs-6 col-sm-4">
+            <div class="thumbnail"> 
+            <a href="assets/images/monke.jpg" data-fancybox="group">
+            <img src="assets/images/monke.jpg" alt="Album" />
             </a>
             </div><!--End thumbnail-->
        </div><!--End column-->
         
         <div class="col-xs-6 col-sm-4">
             <div class="thumbnail"> 
-            <a class="fancybox" href="assets/images/2.jpg">
-            <img class="img-responsive" src="assets/images/2.jpg" alt="Album" />
+            <a href="assets/images/2.jpg" data-fancybox="group">
+            <img src="assets/images/2.jpg" alt="Album" />
             </a>
             </div><!--End thumbnail-->
         </div><!--End column-->
         </div><!--End container-->
   </div><!--End my gallery section-->
+
+
+
+
+
 <!--Contact us section--><div id="contact-us">
         <h2 class="title">Contact us</h2>   
     <div class="container for-contact-title">
@@ -503,19 +516,29 @@
       <input type="number" class="form-control" id="inputVenuecapacity" placeholder="Venue Capacity">
     </div>
   </div>
-  <div class="form-group row">
-    <div class="col-sm-2">
-      <button type="submit" class="btn btn-primary">Submit</button>
+  
+    <div class="button-form">
+    <button type="submit" class="btn btn-primary">Submit</button>
     </div>
-  </div>
   </form><!--End Contact us form-->
+  
+  
 <!--Footer--><footer class="page-footer center-on-small-only">
   <div class="container-fluid foot">
           <div class="row">
   
               <!--First column-->
               <div class="col-md-6 col-sm-6 col-xs-6">
-                  <h5 class="copyright">© 2018 Copyright</h5>
+                  <h5 class="copyright">Follow us!</h5>
+                  <ul class="list-inline social-links">
+                   <li><a target="_blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+                   <li><a target="_blank" href="https://twitter.com/monkeesofficial"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+                   <li><a target="_blank" href="https://www.instagram.com/themonkees/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+                   <li><a target="_blank" href="http://www.youtube.com/themonkees"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></li>
+                   <li><a target="_blank" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck"><i class="fa fa-spotify fa-2x" aria-hidden="true"></i></a></li>
+                </ul>
+                
+              <h5 class="copyright cop">© 2018 Copyright</h5>
                   
               </div>
               <!--/.First column-->
@@ -538,7 +561,7 @@
 <script src="http://code.jquery.com/jquery-3.3.1.js"></script><!--library-->
 <script src="/js/dist/jquery.fancybox.min.js"></script>
 
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

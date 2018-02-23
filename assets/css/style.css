@@ -2,8 +2,7 @@
 
 body {
     
-    margin-right: -25px;
-    margin-left: -25px;
+    margin: 0px;
     background-color: #ffffeb;
     overflow-x: hidden;
 }
@@ -35,82 +34,111 @@ body {
 
 /* -----------------------------------------------NAVBAR ---------------------------------------------------*/
 
-#navbar-primary .navbar-nav { 
-    
-    background: #fb2e01;
-    width: 100%;
-    text-align: center;
-    margin-top: -8px;
-    height: 124px;
-    padding-left: 74px;
-    margin-bottom: -21px;
-    
+.navbar .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
 }
 
-.navbar-nav > li {
-    
-    display: inline-block;
-    float: none;
+.navbar-brand {
+    margin-left: 0px;
+    padding-left: 45px;
+    background-color: rgb(251, 46, 1);
+}
+
+.navbar-inverse .navbar-brand {
+    color: rgb(251, 46, 1);
+}
+
+#myNavbar li a:hover {
+    color: #ebb710;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: rgb(251, 46, 1);
+}
+
+.navbar{
+   border-radius: 0;
+   padding-bottom: 0;
+   margin-bottom: 0;
+   
+}
+
+.navbar-inverse {
+    border: 0;
 
 }
 
-.navbar-nav  a {
-    
-      padding-left: 30px;
-      padding-right: 30px;
-      
-}
-
-.container-fluid .social-links .soc-link a {
-    
-    color: #e92826;
-    padding-top: 50px;
-    
-}
-.social-icons .soc-link a {
-    
-    margin-left: 50px;
-    
-}
-
-.navbar-nav li a {
-    
-    color: #fffeb3;
-    font-family: 'Kavivanar', cursive;
-    font-weight:400;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    
-}
-
-.navbar-nav li a:hover {
-    
-    color: skyblue;
+.navbar-toggle {
+    padding: 22px 68px;
     background-color: transparent;
-    
+    border: none;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-nav {
+    float: right;
+    padding-right: 55px;
+    padding-top: 10px;
+}
+
+.navbar-text {
+    margin-bottom: 0px;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+   margin-right: -13px;
+   margin-left: -33px;
+}
+
+.navbar-collapse {
+    padding-left: 48px;
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    color: rgb(251, 46, 1);
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fafafa;
+    font-family: 'roboto';
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'raleway';
+}
+
+#myNavbar {
+    background-color: rgb(251, 46, 1);
+}
+
+.navbar-header {
+    background-color: rgb(251, 46, 1);
+    height: 75px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: rgb(251, 46, 1);
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 0px; 
+    margin-left: 0px;
 }
 
 #logo-navbar-middle {
-    
-    height: 117px;
-    padding-left: 28px;
-    margin-top: -8px;
-}
-
-.banner {
-    
-    padding-top: 0px;
-    
-}
-
-.navbar {
-    
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 20px; 
-    margin-right: -31px;
-    margin-left: -31px;
-    
+    height: 71px;
+    padding-left: 0px;
+    margin-top: -15px;
 }
 
 /* -----------------------------------------------BANNER IMAGE ---------------------------------------------------*/
@@ -192,57 +220,90 @@ body {
 
 /* -----------------------------------------------SHOWS ---------------------------------------------------*/
 
-#shows {
-    
-    padding-top: 100px;
-    
-}
-
-th {
-    
-    font-size: 20px;
-    padding-left: 71px;
-    
-}
 .show-list {
-    border: 1px solid;
-    padding-top: 25px;
-    background-color: skyblue;
-    margin-right: auto;
-    margin-left: auto;
+    
 }
 
-td {
+.show-dates li {
+    
+    margin: 0; 
+    background: skyblue;
+    color: white;
+    font-family: 'raleway';
+    text-transform: capitalize;
     font-size: 20px;
-    padding: 26px;
-    padding-left: 72px;
-}
-.c1 {
-    font-family: 'raleway';
+    margin-right: auto;
+    margin-left: -13px;
+    padding-right: -25px;
     
 }
 
-.c2 {
+.tickets:hover {
     
-    font-family: 'raleway';
-}
-
-.c3 {
-    font-family: 'raleway';
+    color: lightseagreen;
+    font-size: 150%;
     
 }
 
-.c4 {
+.show-dates li span {
     
-    font-family: 'raleway';
-    padding-right: 4%;
-    padding-left: 9%;
+    display: block;
+    float: left;
+    
 }
 
-.c5 {
+.show-dates li .c1 {
     
-    font-family: 'raleway';
-    padding-left: 10%;
+   margin-left: 20px;
+   width: 18%;
+    padding-right: 23%;
+}
+    
+
+.show-dates li .c2 {
+    
+    width: 20%;
+    
+}
+
+.show-dates li .c3 {
+    
+    width: 19%;
+    
+}
+
+.show-dates li .c4 {
+    
+    width: 18%;
+    
+}
+
+.show-dates li .c5 {
+    
+    float: right;
+    text-align: center;
+    width: 18%;
+    
+}
+
+.show-dates li .c1 {
+    
+    width: 18%;
+    padding-right: 2%;
+    
+}
+
+
+.show-dates li span {
+    
+    display: block;
+    float: left;
+    
+}
+
+.show-dates a {
+    color: white;
+    display: block;
 }
 
 
@@ -493,6 +554,10 @@ audio, canvas, progress, video {
     
 }
 
+.button-form {
+    display: block;
+}
+
 /* -----------------------------------------------FOOTER ---------------------------------------------------*/
 
 .copyright {
@@ -500,15 +565,19 @@ audio, canvas, progress, video {
     font-family: 'kavivanar';
     font-size: 19px;
     margin-left: 47px;
-    color: #fffeb3;
+    color: #fb2e01;
     
+}
+
+.cop {
+    margin-top:10px;
 }
 
 .page-footer {
     
-    background: #fb2e01;
-    height: 107px;
-    
+    height: 172px;
+    background: #fffeb3;
+    margin-top: 30px
 }
 
 .footer-newsletter-text {
@@ -516,7 +585,7 @@ audio, canvas, progress, video {
     font-family: 'kavivanar';
     font-weight: 500;
     font-size: 19px;
-    color: #fffeb3;
+    color: #fb2e01;
     margin-bottom: 0.5rem;
     
 }
@@ -538,7 +607,7 @@ audio, canvas, progress, video {
 
 .footer-newsletter-form button[type="submit"] {
     
-    background: lightseagreen;
+    background: skyblue;
     border: 1px solid transparent;
     display: inline-block;
     outline: 0;
@@ -554,18 +623,32 @@ audio, canvas, progress, video {
 
 .footer-newsletter-form button:hover {
     
-    background-color: #fffeb3;
+    background-color: rgb(251, 46, 1);
     color: black;
-    border-color: #fffeb3;
+    border-color: rgb(251, 46, 1);
     
+}
+
+.list-inline {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 39px;
+}
+
+.social-links li a {
+    color: skyblue;
+}
+
+.social-links li a:hover {
+    color: rgb(251, 46, 1);
 }
 
 /* -----------------------------------------------MEDIA QUERIES ---------------------------------------------------*/
 
 @media(max-width:450px) {
     .show-dates li{
-        font-size: 9px;
-        max-width: 88%;
+        font-size: 12px;
+    max-width: 95%;
     }
 }
 @media (min-width: 401px) and (max-width:550px) {
