@@ -10,7 +10,7 @@ body {
 .title {
     
     font-family: 'raleway', sans-serif;
-    font-size: 61px;
+    font-size: 35px;
     text-align: center;
     color: lightseagreen;
     font-weight: bold;
@@ -18,7 +18,7 @@ body {
     padding-bottom: 20px;
     letter-spacing: 10px;
     margin-bottom: 34px;
-    border-bottom: 1px solid lightseagreen;
+
     
 }
 
@@ -123,7 +123,7 @@ body {
 
 .navbar-header {
     background-color: rgb(251, 46, 1);
-    height: 75px;
+    
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
@@ -147,12 +147,12 @@ body {
 .hero .hero-image {
     
     height: 100vh;
-    background-image: url("assets/images/monkees.jpg");
+    background-image: url("https://raw.githubusercontent.com/luisanegri/themonkees/master/assets/images/monkees.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-right: 0px;
     width:100%;
-    margin-top: 116px;
+    margin-top: 61px;
     
 }
 
@@ -160,7 +160,7 @@ body {
 
 #the-band {
     
-    padding-top: 100px;
+    padding-top: 49px;
     background: #ffffeb;
     
 }
@@ -222,6 +222,10 @@ body {
 
 .show-list {
     
+}
+
+#shows {
+    margin-top: 45px;
 }
 
 .show-dates li {
@@ -311,7 +315,7 @@ body {
 
 #listen {
     
-    padding-top: 95px;
+    padding-top: 46px;
     
 }
 
@@ -319,7 +323,7 @@ body {
     
     color: #fb2e01;
     font-family: 'kavivanar', sans-serif;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 300;
     text-align: center;
     letter-spacing: 4px;
@@ -419,7 +423,7 @@ audio, canvas, progress, video {
 
 #my-gallery {
     
-    margin-top: 137px;
+    margin-top: 157px;
     
 }
 
@@ -450,21 +454,13 @@ audio, canvas, progress, video {
     
 }
 
-#my-gallery {
-    
-    margin-top: 17px;
-    
-}
 
-.title-gallery {
-    padding-top: 20px;
-}
 
 /* -----------------------------------------------CONTACT ---------------------------------------------------*/
 
 #contact-us {
     
-    padding-top: 100px;
+    padding-top: 50px;
     
 }
 
@@ -575,9 +571,10 @@ audio, canvas, progress, video {
 
 .page-footer {
     
-    height: 172px;
+    height: 189px;
+    margin-right: 0px;
     background: #fffeb3;
-    margin-top: 30px
+    margin-top: 30px;
 }
 
 .footer-newsletter-text {
