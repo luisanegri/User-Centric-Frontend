@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Kavivanar:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700|Amatic+SC:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Kavivanar:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700|Amatic+SC:100,200,300,400,500,600,700|Monoton:|Nanum+Brush+Script:100,200,300,400,500,600,700|Shadows+Into+Light:100,200,300,400,500,600,700');
 
 body {
     
@@ -40,18 +40,21 @@ body {
 }
 
 .navbar-brand {
-    margin-left: 0px;
-    padding-left: 45px;
-    background-color: rgb(251, 46, 1);
+    padding-left: 26px;
 }
 
 .navbar-inverse .navbar-brand {
-    color: rgb(251, 46, 1);
+    color: #ebe9e5;
+    font-family: 'Monoton', cursive;
+    letter-spacing: 3px;
+    font-size: 19px;
+    padding-top: -4px;
+    margin-left: 0px;
+    margin-top: 5px;
+
 }
 
-#myNavbar li a:hover {
-    color: #ebb710;
-}
+
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: rgb(251, 46, 1);
@@ -70,8 +73,12 @@ body {
 }
 
 .navbar-toggle {
-    padding: 22px 68px;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     background-color: transparent;
+    background-image: none;
     border: none;
 }
 
@@ -79,10 +86,11 @@ body {
     background-color: transparent;
 }
 
+
 .navbar-nav {
     float: right;
-    padding-right: 55px;
-    padding-top: 10px;
+    padding-right: 15px;
+    padding-top: 3px;
 }
 
 .navbar-text {
@@ -111,10 +119,11 @@ body {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: white;
+    color: #ebe9e5;
     text-transform: uppercase;
     font-weight: 500;
     font-family: 'raleway';
+    letter-spacing: 2px;
 }
 
 #myNavbar {
@@ -152,7 +161,7 @@ body {
     background-size: 100% 100%;
     margin-right: 0px;
     width:100%;
-    margin-top: 61px;
+    margin-top: 55px;
     
 }
 
@@ -334,7 +343,7 @@ body {
 .hey-hey {
     
     background-color: #fffeb3;
-    width: 100%;
+    width: 94%;
     margin-top: -17px;
     display: block;
     margin-left: auto;
@@ -524,6 +533,7 @@ audio, canvas, progress, video {
     font-family: 'raleway', sans-serif;
     margin-bottom: 10px;
     font-size: 25px;
+    margin-top: 0px;
     
 }
 
@@ -592,7 +602,7 @@ audio, canvas, progress, video {
     background: #ebe9e5;
     border: 1px solid transparent;
     line-height: 1;
-    width: 18rem;
+    width: 15rem;
     font-size: 1.4rem;
     font-weight: 400;
     display: inline-block;
