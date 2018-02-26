@@ -16,7 +16,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     padding-bottom: 20px;
-    letter-spacing: 20px;
+    letter-spacing: 15px;
     margin-bottom: 34px;
     text-decoration: none;
   line-height: 1;
@@ -271,7 +271,7 @@ body {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    padding: 10px;
+    padding: 9px;
     font-size: 14px;
     letter-spacing: 0.2em;
     text-align: center;
