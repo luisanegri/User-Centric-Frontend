@@ -311,7 +311,7 @@ body {
 }
 
 audio {
-    width: 229px;
+    width: 215px;
 }
 
 .title-listen {
@@ -651,3 +651,23 @@ audio, canvas, progress, video {
 
 /* -----------------------------------------------MEDIA QUERIES ---------------------------------------------------*/
 
+@media (max-width: 800px){
+.col {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    font-weight: bold;
+}
+}
+
+@media (max-width: 800px){
+#row, .col {
+    display: block;
+}
+}
+
+@media (max-width: 800px){
+.col.tix {
+    max-width: 100%;
+}
+}
