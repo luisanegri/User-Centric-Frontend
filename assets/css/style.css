@@ -310,9 +310,7 @@ body {
     
 }
 
-audio {
-    width: 215px;
-}
+
 
 .title-listen {
     
@@ -669,5 +667,11 @@ audio, canvas, progress, video {
 @media (max-width: 800px){
 .col.tix {
     max-width: 100%;
+}
+}
+
+@media (max-width: 500px){
+    audio {
+    width: 200px;
 }
 }
