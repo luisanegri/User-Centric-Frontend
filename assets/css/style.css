@@ -661,15 +661,33 @@ audio, canvas, progress, video {
 @media (max-width: 800px){
 #row, .col {
     display: block;
+    margin-top: -1px;
+    background-color: #8c2bed;
 }
 }
 
 @media (max-width: 800px){
 .col.tix {
     max-width: 100%;
+    
 }
 }
 
+@media (max-width: 800px){
+.tix-hov {
+    color: #2bed8c;
+    border-bottom: 1px solid #2bed8c;
+}
+}
+
+@media (max-width: 800px){
+.tix-hov:hover {
+    color: #ed2b2b;
+    border-bottom: 1px solid #ed2b2b;
+    font-size: 120%;
+    
+}
+}
 @media (max-width: 500px){
     audio {
     width: 200px;
