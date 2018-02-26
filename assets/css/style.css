@@ -1,26 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Kavivanar:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700|Amatic+SC:100,200,300,400,500,600,700|Monoton:|Nanum+Brush+Script:100,200,300,400,500,600,700|Shadows+Into+Light:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Kavivanar:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700|Monoton:|Nanum+Brush+Script:100,200,300,400,500,600,700|Krona+One:100,200,300,400,500,600,700');
 
 body {
     
     margin: 0px;
-    background-color: #ffffeb;
+    background-color: #333;
     overflow-x: hidden;
 }
 
 .title {
     
     font-family: 'raleway', sans-serif;
-    font-size: 35px;
+    font-size: 45px;
     text-align: center;
-    color: lightseagreen;
+    color: #ed2b2b;
     font-weight: bold;
     text-transform: uppercase;
     padding-bottom: 20px;
-    letter-spacing: 10px;
+    letter-spacing: 20px;
     margin-bottom: 34px;
-
-    
+    text-decoration: none;
+  line-height: 1;
+  text-shadow: #ebe9e5 3px 2px 0;
+  position: relative;
 }
+
 
 .container-fluid {
     
@@ -34,6 +37,25 @@ body {
 
 /* -----------------------------------------------NAVBAR ---------------------------------------------------*/
 
+.nav-btn {
+    background: #2bed8c;
+    color: #333;
+    display: inline-block;
+    margin-top: 7px;
+    text-transform: uppercase;
+    font-family: 'raleway', sans-serif;
+    font-weight: 700;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    letter-spacing: 0.2rem;
+}
+
+.nav-btn:hover {
+    text-decoration: none;
+    background-color: #8c2bed;
+    color: #ebe9e5;
+}
 .navbar .container-fluid {
     padding-left: 0;
     padding-right: 0;
@@ -46,9 +68,8 @@ body {
 .navbar-inverse .navbar-brand {
     color: #ebe9e5;
     font-family: 'Monoton', cursive;
-    letter-spacing: 3px;
-    font-size: 19px;
-    padding-top: -4px;
+    letter-spacing: 5px;
+    font-size: 22px;
     margin-left: 0px;
     margin-top: 5px;
 
@@ -57,7 +78,7 @@ body {
 
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: rgb(251, 46, 1);
+    border-color: #ed2b2b;
 }
 
 .navbar{
@@ -75,7 +96,7 @@ body {
 .navbar-toggle {
     float: right;
     padding: 9px 10px;
-    margin-top: 8px;
+    margin-top: 12px;
     margin-bottom: 8px;
     background-color: transparent;
     background-image: none;
@@ -109,7 +130,7 @@ body {
     border-top: 1px solid transparent;
     -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
     box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
-    color: rgb(251, 46, 1);
+    color: #ed2b2b;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
@@ -123,20 +144,19 @@ body {
     text-transform: uppercase;
     font-weight: 500;
     font-family: 'raleway';
-    letter-spacing: 2px;
 }
 
 #myNavbar {
-    background-color: rgb(251, 46, 1);
+    background-color: #ed2b2b;
 }
 
 .navbar-header {
-    background-color: rgb(251, 46, 1);
+    background-color: #ed2b2b;
     
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    background-color: rgb(251, 46, 1);
+    background-color: #ed2b2b;
 }
 
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
@@ -170,7 +190,7 @@ body {
 #the-band {
     
     padding-top: 49px;
-    background: #ffffeb;
+    background: #333;
     
 }
 
@@ -180,7 +200,7 @@ body {
     padding: 21px;
     margin-bottom: 20px;
     box-shadow: none;
-    background-color: #fffeb3;
+    background-color: #333;
     border:none;
     
 }
@@ -203,120 +223,82 @@ body {
     font-weight: 400;
     font-family: 'raleway', sans-serif;
     text-align: center;
+    color: white;
     
 }
 
 .text-description {
     
-    font-size:15px;
+    font-size:14px;
     text-align: center;
-    
+    color: white;
+    border-top: 1px solid #2bed8c;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
 }
 
 .member-description {
     
     font-size:15px;
     text-align: center;
-    
+    color: white;
 }
 
 .member-name {
     
     font-family: 'raleway',sans-serif;
     text-align: center;
+    color: #ed2b2b;
     
 }
 
 /* -----------------------------------------------SHOWS ---------------------------------------------------*/
-
-.show-list {
+#row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    padding: 5px 0px;
+    background: #2bed8c;
+    padding-top: 20px;
     
 }
-
 #shows {
-    margin-top: 45px;
+        padding-top: 42px;
 }
-
-.show-dates li {
-    
-    margin: 0; 
-    background: skyblue;
-    color: white;
-    font-family: 'raleway';
-    text-transform: capitalize;
-    font-size: 20px;
-    margin-right: auto;
-    margin-left: -13px;
-    padding-right: -25px;
-    
-}
-
-.tickets:hover {
-    
-    color: lightseagreen;
-    font-size: 150%;
-    
-}
-
-.show-dates li span {
-    
-    display: block;
-    float: left;
-    
-}
-
-.show-dates li .c1 {
-    
-   margin-left: 20px;
-   width: 18%;
-    padding-right: 23%;
-}
-    
-
-.show-dates li .c2 {
-    
-    width: 20%;
-    
-}
-
-.show-dates li .c3 {
-    
-    width: 19%;
-    
-}
-
-.show-dates li .c4 {
-    
-    width: 18%;
-    
-}
-
-.show-dates li .c5 {
-    
-    float: right;
+.col {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    letter-spacing: 0.2em;
     text-align: center;
-    width: 18%;
-    
-}
-
-.show-dates li .c1 {
-    
-    width: 18%;
-    padding-right: 2%;
-    
+    line-height: 1.5em;
+    font-family: 'raleway', sans-serif;
+    font-weight: 500;
 }
 
 
-.show-dates li span {
-    
-    display: block;
-    float: left;
-    
+
+.col.tix {
+    max-width: 150px;
 }
 
-.show-dates a {
-    color: white;
-    display: block;
+.tix-hov {
+    color: #ed2b2b;
+    text-decoration: none;
+    border-bottom: 1px solid #ed2b2b;
+    padding-bottom: 3px;
+    transition: 0.2s;
+}
+
+.tix-hov:hover {
+    font-size: 120%;
+    color: #8c2bed;
+    font-weight: bold;
+    border-bottom: 1px solid #8c2bed;
 }
 
 
@@ -328,26 +310,31 @@ body {
     
 }
 
+audio {
+    width: 229px;
+}
+
 .title-listen {
     
-    color: #fb2e01;
-    font-family: 'kavivanar', sans-serif;
-    font-size: 30px;
-    font-weight: 300;
+    color: #ed2b2b;
+    font-family: 'Krona One', sans-serif;
+    font-size: 25px;
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     line-height: 1.5;
     
 }
 
 .hey-hey {
     
-    background-color: #fffeb3;
-    width: 94%;
-    margin-top: -17px;
+    background-color: #ebe9e5;
+    width: 85%;
+    margin-top: 0px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 20px;
+    border: 7px double #2bed8c;
     
 }
 
@@ -361,8 +348,9 @@ body {
 }
 
 .the-best-audio {
-    background-color: #fffeb3;
+    background-color: #ebe9e5;
     padding-top: 35px;
+    padding-bottom: 20px;
 }
 
 .music-square-title {
@@ -373,7 +361,7 @@ body {
 
 #audio-listen {
     
-    background-color: skyblue;
+    background-color: #333;
     padding: 2em;
     margin-top: 43px;
     
@@ -384,6 +372,7 @@ body {
     font-family: 'kavivanar',sans-serif;
     text-align: center;
     margin-top: -14px;
+    color: white;
     
 }
 
@@ -393,6 +382,7 @@ body {
     font-size: 15px;
     font-weight: 400;
     text-align: center;
+    color: white;
     
 }
 
@@ -407,19 +397,19 @@ audio, canvas, progress, video {
 
 .head-name {
     
-    text-align: center;
-    color: #fffeb3;
-    font-family: 'kavivanar';
-    font-weight: 300;
-    font-size: 35px;
-    letter-spacing: 4px;
+        text-align: center;
+    color: #ed2b2b;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 1px;
     line-height: 1.5;
     
 }
 
 .head-box {
     
-    background-color: lightseagreen;
+    background-color: #2bed8c;
     width: 100%;
     float: right;
     text-align: center;
@@ -432,17 +422,18 @@ audio, canvas, progress, video {
 
 #my-gallery {
     
-    margin-top: 157px;
+    padding-top: 46px;
     
 }
 
 .thumbnail {
-    
-    border: none;
-    background-color: #ffffeb;
+    display: block;
+   border-radius:0px;
+   border:none;
+       background-color: transparent;
+    line-height: 1.42857143;
     
 }
-
 .thumbnail {
     
     transition: 1s; 
@@ -478,17 +469,24 @@ audio, canvas, progress, video {
     width: 75%;
     padding-top: 50px;
     margin: auto;
-    color: black;
-    background-color: skyblue;
+    color: white;
+    background-color: #333;
     margin-top: 0px;
     padding-right: 20px;
     padding-left: 20px;
+    padding-bottom: 65px;
     
+}
+
+.for-btn {
+    display: block;
+    float: right;
+    padding-right: 36px;
 }
 
 .btn-primary {
     
-    background: lightseagreen;
+    background: #2bed8c;
     border: 1px solid transparent;
     display: inline-block;
     outline: 0;
@@ -506,29 +504,30 @@ audio, canvas, progress, video {
 
 .btn-primary:hover {
     
-    background-color: #fffeb3;
+    background-color: #8c2bed;
     color: black;
-    border-color: #fffeb3;
+    border-color: #8c2bed;
     
 }
 
 .form-control {
     
-    display: block;
-    width: 87%;
-    height: 36px;
+    width: 75%;
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.428571;
-    background-color: #ebe9e5;
+    background-color: white;
     border: 1px solid black;
     border-radius: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
 .booking {
     
-    color: #172349;
+    color: #ebe9e5;
     text-align: center;
     font-family: 'raleway', sans-serif;
     margin-bottom: 10px;
@@ -542,7 +541,7 @@ audio, canvas, progress, video {
     font-family: 'raleway',sans-serif;
     text-align: center;
     font-size: 17px;
-    
+    color: #ebe9e5;
 }
 
 .col-form-label {
@@ -571,7 +570,7 @@ audio, canvas, progress, video {
     font-family: 'kavivanar';
     font-size: 19px;
     margin-left: 47px;
-    color: #fb2e01;
+    color: #ebe9e5;
     
 }
 
@@ -583,7 +582,7 @@ audio, canvas, progress, video {
     
     height: 189px;
     margin-right: 0px;
-    background: #fffeb3;
+    background: #ed2b2b;
     margin-top: 30px;
 }
 
@@ -592,14 +591,14 @@ audio, canvas, progress, video {
     font-family: 'kavivanar';
     font-weight: 500;
     font-size: 19px;
-    color: #fb2e01;
+    color: #ebe9e5;
     margin-bottom: 0.5rem;
     
 }
 
 .footer-newsletter-form input[type="text"] {
     
-    background: #ebe9e5;
+    background: white;
     border: 1px solid transparent;
     line-height: 1;
     width: 15rem;
@@ -614,7 +613,7 @@ audio, canvas, progress, video {
 
 .footer-newsletter-form button[type="submit"] {
     
-    background: skyblue;
+    background: #2bed8c;
     border: 1px solid transparent;
     display: inline-block;
     outline: 0;
@@ -630,9 +629,9 @@ audio, canvas, progress, video {
 
 .footer-newsletter-form button:hover {
     
-    background-color: rgb(251, 46, 1);
+    background-color: #8c2bed;
     color: black;
-    border-color: rgb(251, 46, 1);
+    border-color: #8c2bed;
     
 }
 
@@ -643,29 +642,12 @@ audio, canvas, progress, video {
 }
 
 .social-links li a {
-    color: skyblue;
+    color: #2bed8c;
 }
 
 .social-links li a:hover {
-    color: rgb(251, 46, 1);
+    color: #8c2bed;
 }
 
 /* -----------------------------------------------MEDIA QUERIES ---------------------------------------------------*/
 
-@media(max-width:450px) {
-    .show-dates li{
-        font-size: 12px;
-    max-width: 95%;
-    }
-}
-@media (min-width: 401px) and (max-width:550px) {
-    .show-dates li{
-        font-size: 12px;
-    }
-}
-
-@media(min-width:551px) and (max-width:700px) {
-    .show-dates li {
-        font-size: 14px
-    }
-}
