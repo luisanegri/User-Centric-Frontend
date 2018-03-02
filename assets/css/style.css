@@ -462,6 +462,13 @@ audio, canvas, progress, video {
     
 }
 
+.option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
 .needs-validation {
     
     width: 75%;
@@ -508,6 +515,16 @@ audio, canvas, progress, video {
     
 }
 
+.rdbtn {
+    padding-right: 77px;
+}
+
+.form-control-event {
+    width: 50%;
+    margin-left: 133px;
+    margin-top: 10px;
+    padding: 6px 12px;
+}
 .form-control {
     
     width: 75%;
@@ -594,7 +611,7 @@ audio, canvas, progress, video {
     
 }
 
-.footer-newsletter-form input[type="text"] {
+.footer-newsletter-form input[type="email"] {
     
     background: white;
     border: 1px solid transparent;
@@ -692,6 +709,24 @@ audio, canvas, progress, video {
     audio {
     width: 200px;
 }
+}
+
+@media (max-width: 600px) {
+    .hero .hero-image {
+        height: 300px;
+    }
+}
+
+@media (min-width: 601px) and (max-width:950px){
+    .hero .hero-image {
+        height: 420px;
+    }
+}
+
+@media (min-width: 951px) and (max-width:1500px){
+    .hero .hero-image {
+        height: 540    px;
+    }
 }
 
 /* * {
