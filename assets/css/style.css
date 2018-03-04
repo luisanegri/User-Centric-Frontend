@@ -729,6 +729,16 @@ audio, canvas, progress, video {
     }
 }
 
+@media (max-width:339px){
+    .navbar-inverse .navbar-brand{ 
+    letter-spacing: 1px;
+    font-size: 19px;
+    }
+    .title {
+    font-size: 37px;
+    }
+}
+
 /* * {
     background: #000 !important;
     color: #0f0 !important;
