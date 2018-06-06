@@ -25,7 +25,7 @@
 
 ## Testing
 
-I constantely tested the website in different screen sizes
+The website was tested in different screen sizes
 
 
 
