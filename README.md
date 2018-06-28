@@ -3,7 +3,7 @@
 ## Overview
 
 >This website was created for the band The Monkees with the purpose of promoting their music, image and availability for shows.
->Demo: https://luisanegri.github.io/themonkees/
+>Demo: https://luisanegri.github.io/User-Centric-Frontend/
 
 ## Features
 
