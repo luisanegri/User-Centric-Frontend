@@ -482,23 +482,23 @@ audio, canvas, progress, video {
 /* -----------------------------------------------FOOTER ---------------------------------------------------*/
 
 .follow-social {
-  font-size: 19px;
+  font-size: 17px;
   margin-left: 47px;
   color: #ebe9e5;
   font-family: 'raleway';
+  font-weight: 500;
 }
 
 .page-footer {
-  
   margin-right: 0px;
   background: #ed2b2b;
   margin-top: 30px;
 }
 
 .footer-newsletter-text {
-  font-family: 'kavivanar';
+  font-family: 'raleway';
   font-weight: 500;
-  font-size: 19px;
+  font-size: 17px;
   color: #ebe9e5;
   margin-bottom: 0.5rem;
 }
@@ -517,23 +517,24 @@ audio, canvas, progress, video {
 }
 
 .footer-newsletter-form button[type="submit"] {
-  background: #2bed8c;
-  border: 1px solid transparent;
-  display: inline-block;
-  outline: 0;
-  padding: 2rem 2.5rem;
-  font-size: 1.2rem;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  line-height: 0.4rem;
-  text-transform: uppercase;
-  font-family: 'raleway', sans-serif;
+    background: transparent;
+    border: 1px solid #fafafa;
+    display: inline-block;
+    color: #fafafa;
+    outline: 0;
+    padding: 2rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    line-height: 0.4rem;
+    text-transform: uppercase;
+    font-family: 'raleway', sans-serif;
+    margin-left: 10px;
 }
 
 .footer-newsletter-form button:hover {
-  background-color: #fafafa;
-  color: black;
-  border-color: #8c2bed;
+
+  border-color: #2bed8c;
 }
 
 .list-inline {
@@ -547,7 +548,12 @@ audio, canvas, progress, video {
 }
 
 .social-links li a:hover {
-  color: #8c2bed;
+  color: #fafafa;
+}
+
+.footer-block {
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 /* -----------------------------------------------MEDIA QUERIES ---------------------------------------------------*/
@@ -572,6 +578,11 @@ audio, canvas, progress, video {
   }
 }
 
+@media (max-width: 627px) {
+  .footer-newsletter-form>button{
+    margin-top: 5px;
+  }
+}
 
 @media (max-width: 500px) {
   audio {
