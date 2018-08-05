@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Kavivanar:500|Raleway:400,500,700|Monoton:|Krona+One:800');
+
+
 body {
   margin: 0px;
   background-color: #333;
@@ -21,13 +23,6 @@ body {
   position: relative;
 }
 
-.container-fluid {
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
 /* -----------------------------------------------NAVBAR ---------------------------------------------------*/
 
 .nav-btn {
@@ -46,7 +41,6 @@ body {
 
 .nav-btn:hover {
   text-decoration: none;
-  background-color: #8c2bed;
   color: #ebe9e5;
 }
 
@@ -176,7 +170,7 @@ body {
   background: #333;
 }
 
-.well {
+.member-bio {
   min-height: 20px;
   padding: 21px;
   margin-bottom: 20px;
@@ -194,7 +188,7 @@ body {
   filter: grayscale(100%);
 }
 
-.well .member-description {
+.member-description {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 400;
@@ -212,11 +206,7 @@ body {
   line-height: 1.5em;
 }
 
-.member-description {
-  font-size: 15px;
-  text-align: center;
-  color: white;
-}
+
 
 .member-name {
   font-family: 'raleway', sans-serif;
@@ -226,24 +216,18 @@ body {
 
 /* -----------------------------------------------SHOWS ---------------------------------------------------*/
 
+#shows {
+  padding-top: 42px;
+}
+
 .show-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
   padding: 5px 0px;
   background: #2bed8c;
   padding-top: 20px;
 }
 
-#shows {
-  padding-top: 42px;
-}
-
 .col {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
   flex: 1;
   padding: 9px;
   font-size: 14px;
@@ -261,16 +245,15 @@ body {
 .tix-hov {
   color: #ed2b2b;
   text-decoration: none;
-  border-bottom: 1px solid #ed2b2b;
   padding-bottom: 3px;
   transition: 0.2s;
 }
 
 .tix-hov:hover {
   font-size: 120%;
-  color: #8c2bed;
   font-weight: bold;
-  border-bottom: 1px solid #8c2bed;
+  text-decoration: none;
+  color: #ed2b2b;
 }
 
 /* -----------------------------------------------LISTEN ---------------------------------------------------*/
@@ -323,6 +306,13 @@ body {
   margin-top: 43px;
 }
 
+audio, canvas, progress, video {
+  display: inline-block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .music-name {
   font-family: 'kavivanar', sans-serif;
   text-align: center;
@@ -339,12 +329,6 @@ body {
   color: white;
 }
 
-audio, canvas, progress, video {
-  display: inline-block;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .head-name {
   text-align: center;
@@ -419,13 +403,13 @@ audio, canvas, progress, video {
   padding-bottom: 65px;
 }
 
-.for-btn {
+.btn-wrapper {
   display: block;
   float: right;
   padding-right: 57px;
 }
 
-.btn-primary {
+.form-btn {
   background: #2bed8c;
   border: 1px solid transparent;
   display: inline-block;
@@ -434,28 +418,16 @@ audio, canvas, progress, video {
   font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: 0.2em;
-  line-height: 1.4rem;
+  line-height: 0.4rem;
   text-transform: uppercase;
   border-radius: 0px;
   color: black;
   font-family: 'raleway', sans-serif;
 }
 
-.btn-primary:hover {
-  background-color: #8c2bed;
-  color: black;
-  border-color: #8c2bed;
-}
-
-.rdbtn {
-  padding-right: 77px;
-}
-
-.form-control-event {
-  width: 50%;
-  margin-left: 133px;
-  margin-top: 10px;
-  padding: 6px 12px;
+.form-btn:hover {
+   background: #2bed8c;
+   border-color: transparent;
 }
 
 .form-control {
@@ -498,25 +470,18 @@ audio, canvas, progress, video {
   margin-right: -57px;
 }
 
-.button-form {
-  display: block;
-}
 
 /* -----------------------------------------------FOOTER ---------------------------------------------------*/
 
-.copyright {
-  font-family: 'kavivanar';
+.follow-social {
   font-size: 19px;
   margin-left: 47px;
   color: #ebe9e5;
-}
-
-.cop {
-  margin-top: 10px;
+  font-family: 'raleway';
 }
 
 .page-footer {
-  height: 189px;
+  
   margin-right: 0px;
   background: #ed2b2b;
   margin-top: 30px;
@@ -539,7 +504,7 @@ audio, canvas, progress, video {
   font-weight: 400;
   display: inline-block;
   outline: 0;
-  padding: 2rem;
+  padding: 1.4rem;
   vertical-align: top;
 }
 
@@ -552,13 +517,13 @@ audio, canvas, progress, video {
   font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: 0.2em;
-  line-height: 1.4rem;
+  line-height: 0.4rem;
   text-transform: uppercase;
   font-family: 'raleway', sans-serif;
 }
 
 .footer-newsletter-form button:hover {
-  background-color: #8c2bed;
+  background-color: #fafafa;
   color: black;
   border-color: #8c2bed;
 }
