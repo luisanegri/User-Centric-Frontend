@@ -3,30 +3,29 @@
 ## Overview
 
 >This website was created for the band The Monkees with the purpose of promoting their music, image and availability for shows.
->Link at: https://luisanegri.github.io/themonkees/
+>Demo: https://luisanegri.github.io/User-Centric-Frontend/
 
 ## Features
 
-* Read about band members
-* View upcoming shows - date, venue, place and buy tickets
-* View promo video
-* Listen to music
-* View photos
-* Book The Monkees for events
+* Band members bibliography 
+* Upcoming shows - date, venue, place and buy tickets
+* Youtube promo video
+* Music audio
+* Photo gallery
+* Book events
 * Connect with The Monkees on social media
 * Subscribe to newsletter
 
 ## Technologies Used
 
 * HTML5
-* CSS3: I styled the website using CSS and I used media queries for responsive purposes. I used media queries on the first image, the upcoming shows section and audio.
-* Bootstrap3: I used Bootstrap grid system to make the website responsive in every device.
-I used it on the form, navigation bar, gallery, band members bio etc. I also used for styling purposes.
-* Lightbox2: I used Lightbox to make easier to users to navigate though the gallery section.
+* CSS3
+* Bootstrap
+* Lightbox
 
 ## Testing
 
-I constantely tested the website using Google Chrome Developer Tool
+The website was tested in different screen sizes
 
 
 
