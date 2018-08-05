@@ -220,10 +220,16 @@ body {
   padding-top: 42px;
 }
 
+.show-panel {
+  background: #2bed8c;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .show-row {
   display: flex;
   padding: 5px 0px;
-  background: #2bed8c;
+  
   padding-top: 20px;
 }
 
@@ -247,6 +253,7 @@ body {
   text-decoration: none;
   padding-bottom: 3px;
   transition: 0.2s;
+  font-weight: bold;
 }
 
 .tix-hov:hover {
@@ -312,6 +319,7 @@ audio, canvas, progress, video {
   margin-left: auto;
   margin-right: auto;
 }
+
 
 .music-name {
   font-family: 'kavivanar', sans-serif;
@@ -544,46 +552,35 @@ audio, canvas, progress, video {
 
 /* -----------------------------------------------MEDIA QUERIES ---------------------------------------------------*/
 
-@media (max-width: 800px) {
+@media (max-width: 767px) {
   .col {
     margin: 0px;
     padding: 0px;
     font-size: 1em;
     font-weight: bold;
   }
-}
-
-@media (max-width: 800px) {
   .show-row, .col {
     display: block;
     margin-top: -1px;
   }
-}
-
-@media (max-width: 800px) {
   .col.tix {
     max-width: 100%;
   }
-}
-
-@media (max-width: 800px) {
-  .tix-hov {
-    border-bottom: 1px solid #2bed8c;
-  }
-}
-
-@media (max-width: 800px) {
   .tix-hov:hover {
     color: #ed2b2b;
-    border-bottom: 1px solid #ed2b2b;
     font-size: 120%;
   }
 }
+
 
 @media (max-width: 500px) {
   audio {
     width: 200px;
   }
+  .audio-player {
+  margin-right: auto;
+  margin-left: auto;
+}
 }
 
 @media (max-width: 600px) {
