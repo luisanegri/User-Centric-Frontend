@@ -7,11 +7,12 @@ body {
   overflow-x: hidden;
 }
 
+
 .title {
   font-family: 'raleway', sans-serif;
-  font-size: 45px;
+  font-size: 35px;
   text-align: center;
-  color: #ed2b2b;
+  color: #ebe9e5;
   font-weight: bold;
   text-transform: uppercase;
   padding-bottom: 20px;
@@ -19,15 +20,16 @@ body {
   margin-bottom: 34px;
   text-decoration: none;
   line-height: 1;
-  text-shadow: #ebe9e5 3px 2px 0;
+  text-shadow: #ed2b2b 3px 2px 0;
   position: relative;
 }
 
 /* -----------------------------------------------NAVBAR ---------------------------------------------------*/
 
 .nav-btn {
-  background: #2bed8c;
-  color: #333;
+  background: #fafafa;
+  border: 1px solid #fafafa;
+  color: black;
   display: inline-block;
   margin-top: 7px;
   text-transform: uppercase;
@@ -41,7 +43,7 @@ body {
 
 .nav-btn:hover {
   text-decoration: none;
-  color: #ebe9e5;
+  color: #2bed8c;
 }
 
 .navbar .container-fluid {
@@ -153,20 +155,27 @@ body {
 
 /* -----------------------------------------------BANNER IMAGE ---------------------------------------------------*/
 
-.hero-image {
-  height: 100vh;
-  background-image: url("https://raw.githubusercontent.com/luisanegri/themonkees/master/assets/images/monkees.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-right: 0px;
-  width: 100%;
-  margin-top: 55px;
+body, html {
+  height: 100%;
+}
+.band-image {
+    height: 100%;
+    background-image: url(https://raw.githubusercontent.com/luisanegri/themonkees/master/assets/images/monkees.jpg);
+    background-repeat: no-repeat;
+    margin: 55px 0px;
+    width: 100%;
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: 100% 100%;
+    
+  
 }
 
 /* -----------------------------------------------THE BAND ---------------------------------------------------*/
 
 #the-band {
-  padding-top: 49px;
+  
   background: #333;
 }
 
@@ -180,8 +189,8 @@ body {
 }
 
 .img-circle {
-  height: 202px;
-  width: 202px;
+  height: 169px;
+  width: 168px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -190,7 +199,7 @@ body {
 
 .member-description {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   font-family: 'raleway', sans-serif;
   text-align: center;
@@ -198,12 +207,13 @@ body {
 }
 
 .text-description {
-  font-size: 14px;
+  font-size: 13px;
   text-align: center;
   color: white;
   border-top: 1px solid #2bed8c;
   letter-spacing: 0.2em;
   line-height: 1.5em;
+    padding-top: 15px;
 }
 
 
@@ -273,7 +283,7 @@ body {
   color: #ed2b2b;
   font-family: 'Krona One', sans-serif;
   font-weight: 800;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   letter-spacing: 1px;
   line-height: 1.5;
@@ -343,7 +353,7 @@ audio, canvas, progress, video {
   color: #ed2b2b;
   font-family: 'Krona One', sans-serif;
   font-weight: 800;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 1px;
   line-height: 1.5;
 }
@@ -400,13 +410,9 @@ audio, canvas, progress, video {
 }
 
 .needs-validation {
-  width: 75%;
+  width: 88%;
   padding-top: 50px;
-  margin: auto;
   color: white;
-  background-color: #333;
-  margin-top: 0px;
-  padding-right: 20px;
   padding-left: 20px;
   padding-bottom: 65px;
 }
@@ -414,12 +420,12 @@ audio, canvas, progress, video {
 .btn-wrapper {
   display: block;
   float: right;
-  padding-right: 57px;
+  
 }
 
 .form-btn {
-  background: #2bed8c;
-  border: 1px solid transparent;
+  background: transparent;
+  border: 1px solid #fafafa;
   display: inline-block;
   outline: 0;
   padding: 2rem 2.5rem;
@@ -429,13 +435,14 @@ audio, canvas, progress, video {
   line-height: 0.4rem;
   text-transform: uppercase;
   border-radius: 0px;
-  color: black;
+  color: #fafafa;
   font-family: 'raleway', sans-serif;
+  
 }
 
 .form-btn:hover {
-   background: #2bed8c;
-   border-color: transparent;
+   border-color: #2bed8c;
+   background: transparent;
 }
 
 .form-control {
@@ -456,14 +463,14 @@ audio, canvas, progress, video {
   text-align: center;
   font-family: 'raleway', sans-serif;
   margin-bottom: 10px;
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 0px;
 }
 
 .booking2 {
   font-family: 'raleway', sans-serif;
   text-align: center;
-  font-size: 17px;
+  font-size: 16px;
   color: #ebe9e5;
 }
 
@@ -478,6 +485,9 @@ audio, canvas, progress, video {
   margin-right: -57px;
 }
 
+.page-title {
+  padding: 0 15px 0 15px;
+}
 
 /* -----------------------------------------------FOOTER ---------------------------------------------------*/
 
@@ -533,7 +543,6 @@ audio, canvas, progress, video {
 }
 
 .footer-newsletter-form button:hover {
-
   border-color: #2bed8c;
 }
 
@@ -558,6 +567,16 @@ audio, canvas, progress, video {
 
 /* -----------------------------------------------MEDIA QUERIES ---------------------------------------------------*/
 
+@media (min-width: 767px) and (max-width: 1024px) {
+  .band-image {
+    height: 545px;
+  }
+  .img-circle {
+    height: 158px;
+    width: 158px;
+  }
+}
+
 @media (max-width: 767px) {
   .col {
     margin: 0px;
@@ -576,9 +595,17 @@ audio, canvas, progress, video {
     color: #ed2b2b;
     font-size: 120%;
   }
+  .band-image {
+    height: 330px;
+  }
+  .btn-wrapper {
+    display: block; 
+    margin: 0 auto;
+  }
+
 }
 
-@media (max-width: 627px) {
+@media (max-width: 626px) {
   .footer-newsletter-form>button{
     margin-top: 5px;
   }
@@ -589,26 +616,8 @@ audio, canvas, progress, video {
     width: 200px;
   }
   .audio-player {
-  margin-right: auto;
-  margin-left: auto;
-}
-}
-
-@media (max-width: 600px) {
-  .hero .hero-image {
-    height: 300px;
-  }
-}
-
-@media (min-width: 601px) and (max-width:950px) {
-  .hero .hero-image {
-    height: 420px;
-  }
-}
-
-@media (min-width: 951px) and (max-width:1500px) {
-  .hero .hero-image {
-    height: 540 px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -618,12 +627,7 @@ audio, canvas, progress, video {
     font-size: 19px;
   }
   .title {
-    font-size: 37px;
+    font-size: 30px;
   }
 }
 
-/* * {
-    background: #000 !important;
-    color: #0f0 !important;
-    outline: solid #f00 1px !important;
-}*/
