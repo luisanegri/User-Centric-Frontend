@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Kavivanar:500|Raleway:400,500,700|Monoton:|Krona+One:800');
 
-
 body {
   margin: 0px;
   background-color: #333;
   overflow-x: hidden;
 }
 
-
 .title {
   font-family: 'raleway', sans-serif;
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
   color: #ebe9e5;
   font-weight: bold;
@@ -22,6 +20,9 @@ body {
   line-height: 1;
   text-shadow: #ed2b2b 3px 2px 0;
   position: relative;
+  background: #9AB6B6;
+  padding: 20px;
+  border: 1px solid #ebe9e5;
 }
 
 /* -----------------------------------------------NAVBAR ---------------------------------------------------*/
@@ -29,7 +30,7 @@ body {
 .nav-btn {
   background: #fafafa;
   border: 1px solid #fafafa;
-  color: black;
+  color: #333;
   display: inline-block;
   margin-top: 7px;
   text-transform: uppercase;
@@ -43,7 +44,9 @@ body {
 
 .nav-btn:hover {
   text-decoration: none;
-  color: #2bed8c;
+  color: #fafafa;
+  background-color: #9AB6B6;
+  border: 1px solid #9AB6B6;
 }
 
 .navbar .container-fluid {
@@ -158,24 +161,23 @@ body {
 body, html {
   height: 100%;
 }
+
 .band-image {
-    height: 100%;
-    background-image: url(https://raw.githubusercontent.com/luisanegri/themonkees/master/assets/images/monkees.jpg);
-    background-repeat: no-repeat;
-    margin: 55px 0px;
-    width: 100%;
-    position: relative;
-    opacity: 0.70;
-    background-position: center;
-    background-size: 100% 100%;
-    
-  
+  height: 100%;
+  background-image: url(https://raw.githubusercontent.com/luisanegri/themonkees/master/assets/images/monkees.jpg);
+  background-repeat: no-repeat;
+  margin: 55px 0px;
+  width: 100%;
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: 100% 100%;
 }
 
 /* -----------------------------------------------THE BAND ---------------------------------------------------*/
 
 #the-band {
-  
+  padding-top: 35px;
   background: #333;
 }
 
@@ -184,8 +186,9 @@ body, html {
   padding: 21px;
   margin-bottom: 20px;
   box-shadow: none;
-  background-color: #333;
+  background-color: #ebe9e5;
   border: none;
+  box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
 }
 
 .img-circle {
@@ -199,54 +202,55 @@ body, html {
 
 .member-description {
   text-transform: uppercase;
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 13px;
+  font-weight: bold;
   font-family: 'raleway', sans-serif;
   text-align: center;
-  color: white;
+  color: #333;
 }
 
 .text-description {
-  font-size: 13px;
+  font-size: 12px;
   text-align: center;
-  color: white;
-  border-top: 1px solid #2bed8c;
+  color: #333;
   letter-spacing: 0.2em;
   line-height: 1.5em;
-    padding-top: 15px;
+  padding-top: 15px;
 }
-
-
 
 .member-name {
   font-family: 'raleway', sans-serif;
   text-align: center;
   color: #ed2b2b;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 /* -----------------------------------------------SHOWS ---------------------------------------------------*/
 
 #shows {
-  padding-top: 42px;
+  padding-top: 35px;
 }
 
 .show-panel {
-  background: #2bed8c;
+  background: #3E7C7C;
   padding-top: 20px;
+  color: white;
   padding-bottom: 20px;
+  margin-top: -10px;
+  box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
 }
 
 .show-row {
   display: flex;
   padding: 5px 0px;
-  
   padding-top: 20px;
 }
 
 .col {
   flex: 1;
   padding: 9px;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 0.2em;
   text-align: center;
   line-height: 1.5em;
@@ -259,7 +263,7 @@ body, html {
 }
 
 .tix-hov {
-  color: #ed2b2b;
+  color: black;
   text-decoration: none;
   padding-bottom: 3px;
   transition: 0.2s;
@@ -270,34 +274,35 @@ body, html {
   font-size: 120%;
   font-weight: bold;
   text-decoration: none;
-  color: #ed2b2b;
+  color: #fafafa;
 }
 
 /* -----------------------------------------------LISTEN ---------------------------------------------------*/
 
 #listen {
-  padding-top: 46px;
+  padding-top: 35px;
 }
 
 .title-listen {
   color: #ed2b2b;
   font-family: 'Krona One', sans-serif;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 5px;
   line-height: 1.5;
+  margin-bottom: 30px;
 }
 
 .first-block {
-  background-color: #ebe9e5;
-  width: 85%;
-  margin-top: 0px;
+  background-color: #fafafa;
+  width: 100%;
+  margin-top: -10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 20px;
-  border: 7px double #2bed8c;
+  padding: 0 20px 20px 20px;
+  box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
 }
 
 .second-block {
@@ -308,9 +313,11 @@ body, html {
 }
 
 .the-best-audio {
-  background-color: #ebe9e5;
+  background-color: #fafafa;
   padding-top: 35px;
   padding-bottom: 20px;
+  box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.2);
+  width: 100%;
 }
 
 .music-square-title {
@@ -330,7 +337,6 @@ audio, canvas, progress, video {
   margin-right: auto;
 }
 
-
 .music-name {
   font-family: 'kavivanar', sans-serif;
   text-align: center;
@@ -347,30 +353,25 @@ audio, canvas, progress, video {
   color: white;
 }
 
-
 .head-name {
   text-align: center;
   color: #ed2b2b;
   font-family: 'Krona One', sans-serif;
   font-weight: 800;
-  font-size: 20px;
-  letter-spacing: 1px;
-  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: 5px;
 }
 
 .head-box {
-  background-color: #2bed8c;
-  width: 97%;
-  float: right;
   text-align: center;
-  margin-bottom: -43px;
-  margin-top: -17px;
+  margin-bottom: -59px;
+  margin-top: 0;
 }
 
 /* -----------------------------------------------GALLERY ---------------------------------------------------*/
 
 #my-gallery {
-  padding-top: 46px;
+  padding-top: 35px;
 }
 
 .thumbnail {
@@ -398,7 +399,7 @@ audio, canvas, progress, video {
 /* -----------------------------------------------CONTACT ---------------------------------------------------*/
 
 #contact-us {
-  padding-top: 50px;
+  padding-top: 35px;
 }
 
 .option {
@@ -420,15 +421,13 @@ audio, canvas, progress, video {
 .btn-wrapper {
   display: block;
   float: right;
-  
 }
 
 .form-btn {
   background: transparent;
   border: 1px solid #fafafa;
   display: inline-block;
-  outline: 0;
-  padding: 2rem 2.5rem;
+  padding: 1.5rem 2rem;
   font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: 0.2em;
@@ -437,12 +436,13 @@ audio, canvas, progress, video {
   border-radius: 0px;
   color: #fafafa;
   font-family: 'raleway', sans-serif;
-  
 }
 
 .form-btn:hover {
-   border-color: #2bed8c;
-   background: transparent;
+  text-decoration: none;
+  color: #fafafa;
+  background: #9AB6B6;
+  border: 1px solid #9AB6B6;
 }
 
 .input-form {
@@ -486,7 +486,7 @@ audio, canvas, progress, video {
 }
 
 .page-title {
-  padding: 0 15px 0 15px;
+  padding: 28px 15px 0 15px;
 }
 
 /* -----------------------------------------------FOOTER ---------------------------------------------------*/
@@ -527,23 +527,25 @@ audio, canvas, progress, video {
 }
 
 .footer-newsletter-form button[type="submit"] {
-    background: transparent;
-    border: 1px solid #fafafa;
-    display: inline-block;
-    color: #fafafa;
-    outline: 0;
-    padding: 2rem 2.5rem;
-    font-size: 1.2rem;
-    font-weight: 700;
-    letter-spacing: 0.2em;
-    line-height: 0.4rem;
-    text-transform: uppercase;
-    font-family: 'raleway', sans-serif;
-    margin-left: 10px;
+  background: transparent;
+  border: 1px solid #9AB6B6;
+  display: inline-block;
+  color: #fafafa;
+  outline: 0;
+  padding: 2rem 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  line-height: 0.4rem;
+  text-transform: uppercase;
+  font-family: 'raleway', sans-serif;
+  margin-left: 10px;
 }
 
 .footer-newsletter-form button:hover {
-  border-color: #2bed8c;
+  text-decoration: none;
+  color: #fafafa;
+  background: #9AB6B6;
 }
 
 .list-inline {
@@ -553,11 +555,11 @@ audio, canvas, progress, video {
 }
 
 .social-links li a {
-  color: #2bed8c;
+  color: #fafafa;
 }
 
 .social-links li a:hover {
-  color: #fafafa;
+  color: #9AB6B6;
 }
 
 .footer-block {
@@ -570,10 +572,6 @@ audio, canvas, progress, video {
 @media (min-width: 767px) and (max-width: 1024px) {
   .band-image {
     height: 545px;
-  }
-  .img-circle {
-    height: 158px;
-    width: 158px;
   }
 }
 
@@ -596,17 +594,21 @@ audio, canvas, progress, video {
     font-size: 120%;
   }
   .band-image {
-    height: 330px;
+    height: 300px;
+    margin-top: 60px;
   }
   .btn-wrapper {
-    display: block; 
+    display: block;
     margin: 0 auto;
   }
-
+  .img-circle {
+    height: 144px;
+    width: 145px;
+  }
 }
 
 @media (max-width: 626px) {
-  .footer-newsletter-form>button{
+  .footer-newsletter-form>button {
     margin-top: 5px;
   }
 }
@@ -627,7 +629,9 @@ audio, canvas, progress, video {
     font-size: 19px;
   }
   .title {
-    font-size: 30px;
+    font-size: 27px;
+  }
+  .footer-newsletter-form input[type="email"] {
+    width: 14rem;
   }
 }
-
