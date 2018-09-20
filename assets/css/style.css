@@ -27,27 +27,6 @@ body {
 
 /* -----------------------------------------------NAVBAR ---------------------------------------------------*/
 
-.nav-btn {
-  background: #fafafa;
-  border: 1px solid #fafafa;
-  color: #333;
-  display: inline-block;
-  margin-top: 7px;
-  text-transform: uppercase;
-  font-family: 'raleway', sans-serif;
-  font-weight: 700;
-  padding: 1rem 1.5rem;
-  font-size: 1.2rem;
-  line-height: 1.4rem;
-  letter-spacing: 0.2rem;
-}
-
-.nav-btn:hover {
-  text-decoration: none;
-  color: #fafafa;
-  background-color: #9AB6B6;
-  border: 1px solid #9AB6B6;
-}
 
 .navbar .container-fluid {
   padding-left: 0;
