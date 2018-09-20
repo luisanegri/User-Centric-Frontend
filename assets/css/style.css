@@ -113,9 +113,7 @@ body {
 .navbar-collapse {
   padding-left: 48px;
   overflow-x: visible;
-  -webkit-overflow-scrolling: touch;
   border-top: 1px solid transparent;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
   color: #ed2b2b;
 }
